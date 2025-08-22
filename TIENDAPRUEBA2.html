@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstiloROSA</title>
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f0; /* fondo rosa claro */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff66b2; /* rosa fuerte */
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 40px 20px;
+        }
+        .card {
+            background-color: #fff0f6; /* rosa muy claro */
+            width: 220px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0px 6px 15px rgba(255, 102, 178, 0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 20px rgba(255, 102, 178, 0.6);
+        }
+        .card i {
+            font-size: 45px;
+            margin-bottom: 10px;
+            color: #ff66b2;
+        }
+        .card a {
+            display: block;
+            margin-top: 15px;
+            padding: 12px;
+            background-color: #ff99cc; /* rosa botones */
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .card a:hover {
+            background-color: #ff66b2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EstiloROSA</h1>
+        <p>Accede a todas tus herramientas desde aquí</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <i class="fab fa-facebook-square"></i>
+            <h2>Facebook</h2>
+            <a href="https://www.facebook.com/TU_PAGINA" target="_blank">Abrir Facebook</a>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-paint-brush"></i>
+            <h2>Canva</h2>
+            <a href="https://www.canva.com" target="_blank">Abrir Canva</a>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-chart-line"></i>
+            <h2>Meta Business Suite</h2>
+            <a href="https://business.facebook.com" target="_blank">Abrir Meta Business</a>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-envelope"></i>
+            <h2>Gmail</h2>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">Abrir Gmail</a>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-globe"></i>
+            <h2>Otras páginas</h2>
+            <a href="https://www.ejemplo.com" target="_blank">Ir a otra página</a>
+        </div>
+    </div>
+</body>
+</html>
